@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by crystal on 22/01/2017.
  */
 public class GameArena {
-    private ArrayList gamePlayers = new ArrayList<>();
+    private ArrayList<Player> gamePlayers = new ArrayList<>();
 
     public GameArena(String NamePlayer1, String NamePlayer2) {
         gamePlayers.add(new Player(NamePlayer1));
